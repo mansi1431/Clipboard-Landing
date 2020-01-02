@@ -82,11 +82,13 @@ p {
 }
 
 ul {
-	list-style: none;
+	display: flex;
+	justify-content: center;
 }
 
 li {
-	padding-bottom: 30px;
+	list-style: none;
+	padding-right: 20px;
 }
 
 .three_col {
@@ -164,6 +166,15 @@ li {
 		padding-bottom: 50px;
 	}
 
+	ul {
+		display: block;
+	}
+
+	li {
+		list-style: none;
+		padding-bottom: 30px;
+	}
+
 	.computer_img {
 		padding-right: 0px;
 	}
@@ -223,6 +234,15 @@ li {
 		padding-bottom: 50px;
 	}
 
+	ul {
+		display: block;
+	}
+
+	li {
+		list-style: none;
+		padding-bottom: 30px;
+	}
+
 	.computer_img {
 		padding-right: 0px;
 	}
@@ -266,3 +286,4 @@ li {
 	}
 
 }
+
