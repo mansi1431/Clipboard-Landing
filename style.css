@@ -1,0 +1,268 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url("images/bg-header-desktop.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Bai Jamjuree', sans-serif;
+	overflow-x: hidden;
+}
+
+.logo {
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+
+.logo img {
+	display: block;
+	margin: auto;
+}
+
+.download {
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.button {
+	text-decoration: none;
+	border-radius: 50px;
+	padding: 10px 40px;
+	color: #fff;
+	box-shadow:
+}
+
+.ios {
+	background-color: hsl(171, 66%, 44%);
+	box-shadow: 0px 8px 6px -6px #26baa4;
+}
+
+.mac {
+	background-color: hsl(233, 100%, 69%);
+	box-shadow: 0px 8px 6px -6px #6173ff;
+}
+
+.computer {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 100px;
+}
+
+.computer_img {
+	padding-right: 30px;
+}
+
+.title {
+	padding-bottom: 20px;
+}
+
+.comp_text {
+	padding-bottom: 40px;
+	color: hsl(210, 10%, 33%);
+}
+
+.text_block {
+	padding-top: 40px;
+	padding-left: 30px;
+}
+
+.tablet img {
+	display: block;
+	margin: auto;
+}
+
+h1, h2 {
+	padding-bottom: 30px;
+}
+
+p {
+	color: hsl(210, 10%, 33%);
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	padding-bottom: 30px;
+}
+
+.three_col {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+
+.three_align {
+	padding: 30px;
+	text-align: center;
+}
+
+.three_black_list {
+	padding-bottom: 20px;
+}
+
+.snippets {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.branding {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.branding img {
+	padding: 50px;
+}
+
+.footer {
+	display: flex;
+	background-color: #e4e6e8;
+	padding: 40px;
+	width: 100%;
+}
+
+.logo_footer img {
+	width: 40px;
+	height: 40px;
+}
+
+.footer_align {
+	flex-grow: 1;
+}
+
+.icons img {
+	padding-right: 20px;
+}
+
+.col_align {
+	padding-bottom: 10px;
+}
+
+/*Mobile responsive*/
+@media screen and (max-width:1024px) {
+	body {
+		background-image: url("images/bg-header-mobile.png");
+		padding: 20px;
+	}
+
+	.logo {
+		padding-top: 40px;
+	}
+
+	.logo img {
+		width: 50px;
+		height: 50px;
+	}
+
+	.computer {
+		display: block;
+		padding-bottom: 50px;
+	}
+
+	.computer_img {
+		padding-right: 0px;
+	}
+
+	.computer_img img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.text_block {
+		text-align: center;
+	}
+
+	.tablet img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.three_col {
+		display: block;
+	}
+
+	.branding {
+		display: block;
+		text-align: center;
+	}
+
+	.branding img {
+		padding: 24px;
+	}
+
+	.footer {
+		width: auto;
+	}
+
+}
+
+@media screen and (max-width:460px) {
+
+	/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+	body {
+		background-image: url("images/bg-header-mobile.png");
+		padding: 20px;
+	}
+
+	.logo {
+		padding-top: 40px;
+	}
+
+	.logo img {
+		width: 50px;
+		height: 50px;
+	}
+
+	.computer {
+		display: block;
+		padding-bottom: 50px;
+	}
+
+	.computer_img {
+		padding-right: 0px;
+	}
+
+	.computer_img img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.tablet img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.three_col {
+		display: block;
+	}
+
+	.branding {
+		display: block;
+		text-align: center;
+	}
+
+	.footer {
+		display: block;
+		padding: 0px;
+		text-align: center;
+	}
+
+	.logo_footer {
+		padding-top: 20px;
+	}
+
+	.icons {
+		padding-bottom: 20px;
+	}
+
+	button {
+		display: block;
+		text-align: center;
+	}
+
+}
